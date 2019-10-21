@@ -1,0 +1,11 @@
+.center-items{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+ion-item{
+  --padding-bottom: 10px;
+  --padding-start:  10px;
+  --padding-end: 10px ;
+}
+

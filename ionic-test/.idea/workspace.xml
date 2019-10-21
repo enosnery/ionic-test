@@ -2,7 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ef21298-c2fe-4ba2-b300-6b1eec0ea805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/requests.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.router.module.ts" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,18 +49,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="enosnery &lt;enosnery84@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1SVtamcrRlwZFLvulIpvQG4gHrQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/node_modules/protractor" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,6 +92,7 @@
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Tests (app)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/node_modules/@angular/cli" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -46,6 +100,7 @@
     <configuration name="E2E Tests (app)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/node_modules/protractor" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -76,7 +131,8 @@
       <option name="presentableId" value="Default" />
       <updated>1571660656754</updated>
       <workItem from="1571660658657" duration="507000" />
-      <workItem from="1571661180724" duration="2147000" />
+      <workItem from="1571661180724" duration="5290000" />
+      <workItem from="1571667051828" duration="6503000" />
     </task>
     <servers />
   </component>
@@ -95,5 +151,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

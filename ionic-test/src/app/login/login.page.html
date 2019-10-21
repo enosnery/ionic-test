@@ -1,0 +1,25 @@
+
+    <form #form="ngForm" (ngSubmit)="login(form)">
+        <ion-grid class="center-items">
+            <ion-row>
+                <ion-col>
+                    <div>
+                        <ion-item>
+                            <ion-input [(ngModel)]="user"  name="user" type="text" placeholder="Nome de Usuário"  required></ion-input>
+                        </ion-item>
+                        <ion-item>
+                            <ion-input [(ngModel)]="password"  name="password" type="password" placeholder="Senha"  required></ion-input>
+                        </ion-item>
+                    </div>
+                </ion-col>
+            </ion-row>
+            <ion-row class="ion-align-items-center">
+                <ion-col>
+                    <div class="ion-padding">
+                            <ion-button type="submit" expand="block">Sign In</ion-button>
+                    </div>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </form>
+
