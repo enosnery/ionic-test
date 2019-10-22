@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ef21298-c2fe-4ba2-b300-6b1eec0ea805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/npm-debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/login/login.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/main/main.page.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/requests.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5ef21298-c2fe-4ba2-b300-6b1eec0ea805" name="Default Changelist" comment="Commit #2">
+      <change afterPath="$PROJECT_DIR$/node_modules/moment/moment.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/auth/login/login.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab1/tab1.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.page.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tabs/tabs.router.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/main/main.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/requests.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/requests.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,8 +102,18 @@
       <updated>1571660656754</updated>
       <workItem from="1571660658657" duration="507000" />
       <workItem from="1571661180724" duration="5290000" />
-      <workItem from="1571667051828" duration="6503000" />
+      <workItem from="1571667051828" duration="6637000" />
+      <workItem from="1571738273028" duration="604000" />
+      <workItem from="1571742937786" duration="8389000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit #2">
+      <created>1571687676143</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571687676143</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,5 +137,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Commit #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit #2" />
   </component>
 </project>
