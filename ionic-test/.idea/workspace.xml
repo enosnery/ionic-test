@@ -1,22 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ef21298-c2fe-4ba2-b300-6b1eec0ea805" name="Default Changelist" comment="Commit #2">
-      <change afterPath="$PROJECT_DIR$/node_modules/moment/moment.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="5ef21298-c2fe-4ba2-b300-6b1eec0ea805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/detail/detail.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/detail/detail.page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/detail/detail.page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/detail/detail.page.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/detail/detail.page.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/interface/Request.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@ionic/storage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@ionic/storage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/localforage-cordovasqlitedriver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage-cordovasqlitedriver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/localforage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/localforage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/login/login.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/main/main.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/main/main.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/main/main.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/main/main.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/requests.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/requests.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -25,6 +42,7 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1SVtamcrRlwZFLvulIpvQG4gHrQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -104,7 +122,8 @@
       <workItem from="1571661180724" duration="5290000" />
       <workItem from="1571667051828" duration="6637000" />
       <workItem from="1571738273028" duration="604000" />
-      <workItem from="1571742937786" duration="8389000" />
+      <workItem from="1571742937786" duration="8530000" />
+      <workItem from="1571824374496" duration="14761000" />
     </task>
     <task id="LOCAL-00001" summary="Commit #2">
       <created>1571687676143</created>
@@ -113,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571687676143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit #2">
+      <created>1571775479481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571775479482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit #2">
+      <created>1571775548278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571775548278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

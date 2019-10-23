@@ -3,14 +3,9 @@ import { HttpClient} from '@angular/common/http';
 import * as moment from 'moment';
 import {Storage} from '@ionic/storage';
 import {NavController} from '@ionic/angular';
+import {Request} from '../interface/Request';
+import {NavigationExtras} from '@angular/router';
 
-export interface Request {
-  id: number;
-  name: string;
-  startTime: string;
-  status: number;
-  endTime: string;
-}
 
 @Component({
   selector: 'app-main',
@@ -21,7 +16,7 @@ export interface Request {
 export class MainPage implements OnInit {
   requests: Request[];
   json: any;
-  constructor(public http: HttpClient, public storage: Storage, public navCtrl: NavController) { }
+  constructor(public http: HttpClient, public storage: Storage, public navCtrl: NavController) {  }
 
   ngOnInit() {
     this.storage.get('user').then((val) => {
@@ -45,11 +40,16 @@ export class MainPage implements OnInit {
     });
   }
 
+  requestDetail(index) {
+    this.navCtrl.navigateForward('/detail', {
+      state: {
+        request: this.requests[index]
+      }
+    });
+  }
+
   addRequest() {
   console.log('addRequest');
   }
 
-  logout() {
-    console.log('logout');
-  }
 }

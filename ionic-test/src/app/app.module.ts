@@ -11,6 +11,7 @@ import { AppComponent } from './app.component';
 
 import {HttpClientModule} from '@angular/common/http';
 import {IonicStorageModule} from '@ionic/storage';
+import {NavParams} from '@ionic/angular';
 
 @NgModule({
   declarations: [AppComponent],

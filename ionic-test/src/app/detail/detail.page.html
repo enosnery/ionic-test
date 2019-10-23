@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Detalhes do Reembolso</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{request.name}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <p>{{request.startTime}}</p>
+      </ion-item>
+      <ion-item>
+        <p>{{request.endTime != 'Invalid date' ? request.endTime : ''}}</p>
+      </ion-item>
+            <ion-item>
+        <p>{{request.status == 0 ? 'Em Aberto' : 'Encerrado'}}</p>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -5,7 +5,8 @@ const routes: Routes = [
   {
     path: '', loadChildren: './login/login.module#LoginPageModule'
   },
-  { path: 'main', loadChildren: './main/main.module#MainPageModule' }
+  { path: 'main', loadChildren: './main/main.module#MainPageModule' },
+  { path: 'detail', loadChildren: './detail/detail.module#DetailPageModule' }
 
 ];
 @NgModule({

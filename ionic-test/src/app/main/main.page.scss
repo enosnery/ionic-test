@@ -1,9 +1,24 @@
-.header-style{
+.body-style{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: center;
   font-family: Nunito, "Trebuchet MS", sans-serif;
 }
 ion-label{
   width: 90%;
+}
+ion-menu-button{
+  font-size: 200%;
+}
+
+.title{
+  width: 100%;
+  float: start;
+  font-size: large;
+}
+
+.subtitle{
+  font-size: 11px;
+  color: gray;
+  float: start;
 }
