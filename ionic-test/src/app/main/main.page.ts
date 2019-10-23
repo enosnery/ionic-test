@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient} from '@angular/common/http';
 import * as moment from 'moment';
+import {Storage} from '@ionic/storage';
+import {NavController} from '@ionic/angular';
 
 export interface Request {
   id: number;
@@ -19,11 +21,16 @@ export interface Request {
 export class MainPage implements OnInit {
   requests: Request[];
   json: any;
-  constructor(public http: HttpClient) { }
+  constructor(public http: HttpClient, public storage: Storage, public navCtrl: NavController) { }
 
   ngOnInit() {
-  this.requests = [];
-  this.loadRequests();
+    this.storage.get('user').then((val) => {
+      if (val == null) {
+      this.navCtrl.navigateBack('/');
+      }
+    });
+    this.requests = [];
+    this.loadRequests();
   }
 
   loadRequests() {
@@ -36,5 +43,13 @@ export class MainPage implements OnInit {
       }
       console.log(this.requests);
     });
+  }
+
+  addRequest() {
+  console.log('addRequest');
+  }
+
+  logout() {
+    console.log('logout');
   }
 }
