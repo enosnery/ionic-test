@@ -19,7 +19,6 @@ export class LoginPage implements OnInit {
 
   ngOnInit() {
       this.storage.get('user').then((val) => {
-          console.log(val);
           if (val != null) {
               this.navCtrl.navigateForward('/main');
           }
@@ -31,7 +30,7 @@ export class LoginPage implements OnInit {
   this.http.get('../assets/users.json').subscribe((res) => {
       this.json = res;
       for (const item of this.json) {
-      if (item.username === form.form.value.user) {
+      if (item.username === form.form.value.user && item.password === form.form.value.password) {
         this.storage.set('user', item.username);
         this.navCtrl.navigateForward('/main');
       }

@@ -4,7 +4,8 @@ import * as moment from 'moment';
 import {Storage} from '@ionic/storage';
 import {NavController} from '@ionic/angular';
 import {Request} from '../interface/Request';
-import {NavigationExtras} from '@angular/router';
+import {File} from '@ionic-native/file';
+import {ToastController} from '@ionic/angular';
 
 
 @Component({
@@ -16,8 +17,14 @@ import {NavigationExtras} from '@angular/router';
 export class MainPage implements OnInit {
   requests: Request[];
   json: any;
-  constructor(public http: HttpClient, public storage: Storage, public navCtrl: NavController) {  }
-
+  constructor(public http: HttpClient, public storage: Storage, public navCtrl: NavController, public toastController: ToastController) {  }
+  async presentToast() {
+    const toast = await this.toastController.create({
+      message: 'Em desenvolvimento!',
+      duration: 2000
+    });
+    toast.present();
+  }
   ngOnInit() {
     this.storage.get('user').then((val) => {
       if (val == null) {
@@ -36,7 +43,26 @@ export class MainPage implements OnInit {
         const tempTime2 = moment(item.endTime).format('h:mm d-MM-YYYY');
         this.requests.push({id: item.id, name: item.name, startTime: tempTime1, status: item.status, endTime: tempTime2});
       }
-      console.log(this.requests);
+    });
+  }
+
+  loadFilteredRequests(status) {
+    this.requests = null;
+    this.http.get('../assets/requests.json').subscribe((res) => {
+      this.json = res;
+      for (const item of this.json) {
+        if (item.status === status) {
+        const tempTime1 = moment(item.startTime).format('h:mm d-MM-YYYY');
+        const tempTime2 = moment(item.endTime).format('h:mm d-MM-YYYY');
+        this.requests.push({
+            id: item.id,
+            name: item.name,
+            startTime: tempTime1,
+            status: item.status,
+            endTime: tempTime2
+          });
+        }
+      }
     });
   }
 
@@ -49,7 +75,7 @@ export class MainPage implements OnInit {
   }
 
   addRequest() {
-  console.log('addRequest');
+
   }
 
 }

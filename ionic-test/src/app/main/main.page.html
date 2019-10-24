@@ -8,16 +8,26 @@
 </ion-header>
 
 <ion-content class="body-style">
+    <h1 class="ion-padding">Solicitações de Reembolso de Auxílio Creche</h1>
     <ion-list>
-        <ion-item  *ngFor="let request of requests" (click)="requestDetail(requests.indexOf(request))">
-            <div class="title">{{request.name}}</div><br/>
-            <div class="subtitle">{{request.startTime}} {{request.status == 0 ? 'Em Aberto' : 'Encerrado'}} {{request.endTime != 'Invalid date' ? request.endTime : ''}}</div>>
+        <ion-item>
+            <ion-label>Status</ion-label>
+            <ion-select  (input)="loadFilteredRequests(0)">
+                <ion-select-option value="0">Em Aberto</ion-select-option>
+                <ion-select-option value="1">Atendidas</ion-select-option>
+                <ion-select-option value="2">Rejeitadas</ion-select-option>
+            </ion-select>
         </ion-item>
+        <ion-item  *ngFor="let request of requests" (click)="requestDetail(requests.indexOf(request))">
+                <ion-label stacked>{{request.name}}</ion-label>
+                <ion-thumbnail class="subtitle">{{request.startTime}} {{request.status == 0 ? 'Em Aberto' : 'Encerrado'}} {{request.endTime != 'Invalid date' ? request.endTime : ''}}</ion-thumbnail>
+        </ion-item>
+
     </ion-list>
 </ion-content>
 
 <ion-fab vertical="bottom" horizontal="end" slot="fixed">
-    <ion-fab-button (click)="addRequest()">
+    <ion-fab-button (click)="presentToast()">
         <ion-icon name="add"></ion-icon>
     </ion-fab-button>
 </ion-fab>
