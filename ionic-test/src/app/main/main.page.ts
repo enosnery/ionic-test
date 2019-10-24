@@ -4,7 +4,6 @@ import * as moment from 'moment';
 import {Storage} from '@ionic/storage';
 import {NavController} from '@ionic/angular';
 import {Request} from '../interface/Request';
-import {File} from '@ionic-native/file';
 import {ToastController} from '@ionic/angular';
 
 
@@ -74,8 +73,5 @@ export class MainPage implements OnInit {
     });
   }
 
-  addRequest() {
-
-  }
 
 }
